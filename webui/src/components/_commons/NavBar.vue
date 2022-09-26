@@ -30,7 +30,7 @@
           </q-tabs>
           <div class="right-menu">
             <q-tabs>
-              <q-btn type="a" href="https://hub.traefik.io/" target="_blank" flat no-caps label="Go to Hub Dashboard →" class="btn-menu btn-hub" />
+              {/* <q-btn type="a" href="https://hub.traefik.io/" target="_blank" flat no-caps label="Go to Hub Dashboard →" class="btn-menu btn-hub" /> */}
               <q-btn @click="$q.dark.toggle()" stretch flat no-caps icon="invert_colors" :label="`${$q.dark.isActive ? 'Light' : 'Dark'} theme`" class="btn-menu" />
               <q-btn stretch flat icon="eva-question-mark-circle-outline">
                 <q-menu anchor="bottom left" auto-close>
@@ -153,10 +153,10 @@ export default {
     font-weight: 600;
   }
 
-  .btn-hub {
+  {/* .btn-hub {
     color: #0e204c;
     background: #deea48;
-  }
+  } */}
 
   .q-item {
     padding: 0;
